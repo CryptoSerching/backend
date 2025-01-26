@@ -10,7 +10,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # モデルをインポート
 from db.engine import Base
-from db.schemas.users import Address, Users, Role
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
